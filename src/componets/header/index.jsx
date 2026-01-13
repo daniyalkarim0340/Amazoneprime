@@ -22,7 +22,7 @@ const Header = () => {
     <>
       <header className="w-full bg-cyan-950 text-white py-2 px-3 sm:px-4 md:px-6 lg:px-10 flex flex-wrap md:flex-nowrap items-center justify-between gap-2">
 
-        {/* Left Section: Logo & Delivery */}
+        
         <div className="flex items-center gap-2 sm:gap-3 md:gap-4 order-1 md:order-1">
           <div className="cursor-pointer hover:opacity-80 transition duration-150">
             <FaAmazon className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mt-1" />
@@ -37,7 +37,7 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Middle Section: Search Bar */}
+      
         <div className="flex flex-1 mx-2 sm:mx-3 md:mx-4 order-3 md:order-2 w-full md:w-auto">
           <div className="flex flex-1 items-center">
             <NButton className="hidden md:flex items-center px-3 bg-gray-200 rounded-l-full border border-gray-300 h-9 md:h-10 hover:bg-gray-300 transition">
@@ -57,10 +57,10 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Right Section: Country, Account & Cart */}
+       
         <div className="flex items-center gap-2 sm:gap-3 md:gap-6 order-2 md:order-3">
 
-          {/* Country Selector */}
+        
           <div className="hidden lg:flex items-center gap-1 px-2 py-2 border border-transparent hover:border-white cursor-pointer duration-150 relative">
             <ReactCountryFlag countryCode={selectedCountry.code} svg style={{ width: "24px", height: "16px" }} />
             <Paragraph className="text-xs">{selectedCountry.code}</Paragraph>
@@ -79,7 +79,6 @@ const Header = () => {
             </select>
           </div>
 
-          {/* Account */}
           <div className="hidden lg:flex flex-col px-2 py-2 border border-transparent hover:border-white cursor-pointer duration-150">
             <Paragraph className="text-xs font-light">Hello, Sign in</Paragraph>
             <Paragraph className="text-xs font-bold flex items-center">
@@ -87,13 +86,13 @@ const Header = () => {
             </Paragraph>
           </div>
 
-          {/* Orders */}
+       
           <div className="hidden lg:flex flex-col px-2 py-2 border border-transparent hover:border-white cursor-pointer duration-150">
             <Paragraph className="text-xs font-light">Returns</Paragraph>
             <Paragraph className="text-xs font-bold">& Orders</Paragraph>
           </div>
 
-          {/* Cart */}
+     
           <div className="flex items-center gap-1 sm:gap-2 px-1 sm:px-2 py-2 border border-transparent hover:border-white cursor-pointer duration-150">
             <HiOutlineShoppingCart className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl" />
             <Paragraph className="text-xs sm:text-sm font-bold mt-2 hidden sm:block">Cart</Paragraph>

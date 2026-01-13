@@ -50,7 +50,6 @@ const Footer = () => {
           </div>
         ))}
 
-        {/* Social Media Section */}
         <div>
           <Heading className="text-white text-lg mb-4">Follow Us</Heading>
           <div className="flex space-x-4 mt-2 text-2xl">
@@ -67,10 +66,8 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Divider */}
       <div className="mt-10 border-t border-gray-700"></div>
 
-      {/* Bottom Footer */}
       <div className="mt-6 flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto px-6 text-gray-400 text-sm">
         <Paragraph className="mb-2 md:mb-0">© 2025 Amazon Prime Video. All Rights Reserved.</Paragraph>
 

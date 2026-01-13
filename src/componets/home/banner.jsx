@@ -16,11 +16,9 @@ const Baner = () => {
     <>
       <main className="min-h-screen bg-gradient-to-b from-20%-500 bg-[#0F171E]">
 
-        {/* Hero Section */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
 
-            {/* Left Content */}
             <div>
               <Heading className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white">
                 Amazon Prime
@@ -52,7 +50,6 @@ const Baner = () => {
               </div>
             </div>
 
-            {/* Right Image */}
             <div className="order-first lg:order-last">
               <div className="w-full rounded-lg bg-slate-100 p-4 shadow-md">
                 <img
@@ -66,7 +63,7 @@ const Baner = () => {
           </div>
         </section>
 
-        {/* Cards Section */}
+     
         <section id="cards" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
           <Heading className="text-2xl font-bold text-amber-50 mb-6">Popular on Prime</Heading>
           <Cards />
